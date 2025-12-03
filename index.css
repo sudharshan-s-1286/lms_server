@@ -186,6 +186,38 @@
     border-radius: 50px;
 }
 
+.head-items a{
+    text-decoration: dashed;
+    color: wheat;
+    transition: 1s; 
+}
+
+.head-items a:hover{
+    color: red;
+    transition: 1s;
+    letter-spacing: 0.3rem;  
+}
+
+.box{
+     transition: 5s ease-in;
+    height: 200px;
+    width: 200px;
+    margin-left: 900px;
+    margin-top: 300px;
+   
+    border-radius: 100%;
+}
+
+.box:hover{
+    transition: 5s ease;
+    transform: scale(3.5) rotate(180000deg);
+}
 
 
-
+/*
+.body-content{
+    background-image: url(./assets/rdr-home.jpg);
+    height: 900px;
+    position: relative;
+}
+*/
